@@ -1,0 +1,196 @@
+body{
+    margin: 0px;
+}
+
+.header{
+
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+
+    background: black;
+    border-bottom: 2px solid white;
+
+    overflow: hidden;
+    position: fixed;
+    top:0; 
+
+    
+}
+
+.Bname{
+    padding: 10px;
+    color:white;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+} 
+.link{
+    padding: 20px;
+}
+
+#rectangle2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background: black;
+}
+
+
+.landing-text{
+    margin-left: 40px;
+    width: 700px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 125px;
+}
+
+.png1{
+    margin-top: 100px;
+    margin-right: 190px;
+    width: 400px;
+    height: 300px;
+    border: 2px solid white;
+
+    background-image: url(https://images.pexels.com/photos/812264/pexels-photo-812264.jpeg?auto=compress&cs=tinysrgb&w=600); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.section3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100wh;
+    height:110vh;
+
+} 
+
+.sec3-pic{
+    width: 400px;
+    height: 400px;
+    margin-top: 110px;
+    margin-left: 70px;
+    background: url(https://images.unsplash.com/photo-1600522907071-85ea3bd6f625?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMGJ1aWxkaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+}
+
+#about-us{
+    width: 700px;
+    height: 400px;
+    margin-right: 70px;
+
+}
+
+.about-head{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 70px;
+}
+
+.about-content{
+    margin-right: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#our-service{
+    margin-left: 70px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 60px;
+}
+
+.services{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 60vh;
+    border-bottom: 5px solid black;
+    margin: 20px;
+}
+
+
+.service{
+    height: 300px;
+    border: 2px solid black;
+    margin: 50px;
+    
+}
+
+.service:hover{
+    background-color: black;
+    color: white;
+}
+
+.ser-head{
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ser-cont{
+    margin: 20px;
+}
+
+
+#contactus{
+    background-color: black;
+}
+
+
+.contact-wrd{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin-left: 500px;
+}
+
+input[type=text], select {
+    padding: 10px;
+    width: 90vw;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+input[type=email], select {
+    padding: 10px;
+    width: 90vw;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+input[type=submit], select {
+    padding: 10px;
+    width: 10vw;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+.Fullname
+{
+    height: 10%;
+    width: 80%;
+}
+
+
